@@ -1,2 +1,6 @@
-#!/usr/bin/env ruby.exe
-exec "./bin/rails", "server", *ARGV
+#!/usr/bin/env ruby
+
+# Este script inicia os processos definidos no Procfile.dev
+# usando a gem 'foreman'.
+
+exec("foreman start -f Procfile.dev")
