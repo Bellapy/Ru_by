@@ -186,7 +186,7 @@ GEM
       date
       stringio
     public_suffix (6.0.2)
-    puma (6.6.1)
+    puma (7.0.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.0)
@@ -286,6 +286,7 @@ GEM
       railties (>= 7.0.0)
       tailwindcss-ruby (~> 4.0)
     tailwindcss-ruby (4.1.11-x64-mingw-ucrt)
+    tailwindcss-ruby (4.1.11-x86_64-linux-gnu)
     thor (1.4.0)
     thruster (0.1.15)
     thruster (0.1.15-x86_64-linux)
